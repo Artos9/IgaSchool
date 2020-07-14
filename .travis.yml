@@ -2,3 +2,5 @@ language: php
 php:
   - 7.4
   - nightly
+before_script: composer require --dev phpunit/phpunit
+script: vendor/bin/phpunit
