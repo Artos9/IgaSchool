@@ -3,6 +3,5 @@ php:
   - 7.4
   - nightly
 before_script: 
-  - composer require --dev phpunit/phpunit
   - composer install
 script: vendor/bin/phpunit
