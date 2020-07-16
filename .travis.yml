@@ -4,5 +4,6 @@ php:
   - nightly
 before_script: 
   - composer install
-  - composer require --dev phpunit/phpunit 
+  - composer require --dev sebastian/global-state
+  - composer require --dev phpunit/phpunit
 script: vendor/bin/phpunit
