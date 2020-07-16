@@ -1,7 +1,7 @@
 # IgaSchool
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![StyleCI](https://styleci.io/repos/43971660/shield?branch=master)](https://styleci.io/repos/43971660)
+![TravisCI](https://travis-ci.com/Artos9/IgaSchool.svg?branch=dev)
 
 ## TechStack
 PHP 7.4
