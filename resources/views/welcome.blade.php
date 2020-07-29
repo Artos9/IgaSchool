@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>BizPage Bootstrap Template</title>
+  <title>IgaSchool</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -18,13 +18,13 @@
 
   <!-- Vendor CSS Files -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!--<link href="vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="vendor/venobox/venobox.css" rel="stylesheet">
   <link href="vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="vendor/aos/aos.css" rel="stylesheet">
+  <link href="vendor/aos/aos.css" rel="stylesheet"> -->
 
   <!-- Template Main CSS File -->
   <link href="css/app.css" rel="stylesheet">
@@ -45,26 +45,26 @@
 
       <div class="row justify-content-center">
         <div class="col-xl-11 d-flex align-items-center">
-          <h1 class="logo mr-auto"><a href="index.html">BizPage</a></h1>
+          <h1 class="logo mr-auto"><a href="">IgaSchool</a></h1>
           <!-- Uncomment below if you prefer to use an image logo -->
-          <!-- <a href="index.html" class="logo mr-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
+           <!--<a href="index.html" class="logo mr-auto"><img src="img/logo.png" alt="" class="img-fluid"></a>-->
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <li class="active"><a href="index.html">Home</a></li>
-              <li><a href="#about">About Us</a></li>
-              <li><a href="#services">Services</a></li>
+              <li class="active"><a href="">Strona Główna</a></li>
+              <li><a href="#services">E-book</a></li>
               <li><a href="#portfolio">Portfolio</a></li>
-              <li><a href="#team">Team</a></li>
-              <li class="drop-down"><a href="">Drop Down</a>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#team">Zespół</a></li>
+              <li class="drop-down"><a href="">Realizacje</a>
                 <ul>
-                  <li><a href="#">Drop Down 1</a></li>
-                  <li><a href="#">Drop Down 3</a></li>
-                  <li><a href="#">Drop Down 4</a></li>
-                  <li><a href="#">Drop Down 5</a></li>
+                  <li><a href="#">Wyzwania</a></li>
+                  <li><a href="#">Programy</a></li>
+                  <li><a href="#">eventy</a></li>
                 </ul>
               </li>
-              <li><a href="#contact">Contact Us</a></li>
+              <li><a href="#about">O nas</a></li>
+              <li><a href="#contact">Kontakt</a></li>
 
             </ul>
           </nav><!-- .nav-menu -->
@@ -86,9 +86,9 @@
           <div class="carousel-item active" style="background-image: url(img/intro-carousel/1.jpg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">We are professional</h2>
-                <p class="animate__animated animate__fadeInUp">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">Get Started</a>
+                <h2 class="animate__animated animate__fadeInDown">Szkoła dla Ciebie</h2>
+                <p class="animate__animated animate__fadeInUp">Niezwykłe kursy i lekcje języka angielskiego</p>
+                <a href="#featured-services" class="btn-get-started scrollto animate__animated animate__fadeInUp">PIERWSZY RAZ?</a>
               </div>
             </div>
           </div>
@@ -151,33 +151,6 @@
 
   <main id="main">
 
-    <!-- ======= Featured Services Section Section ======= -->
-    <section id="featured-services">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-bookmarks-outline"></i>
-            <h4 class="title"><a href="">Lorem Ipsum Delino</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-
-          <div class="col-lg-4 box box-bg">
-            <i class="ion-ios-stopwatch-outline"></i>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-
-          <div class="col-lg-4 box">
-            <i class="ion-ios-heart-outline"></i>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-
-        </div>
-      </div>
-    </section><!-- End Featured Services Section -->
-
     <!-- ======= About Us Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
@@ -187,9 +160,9 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
         </header>
 
-        <div class="row about-cols">
+        <div >
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
@@ -202,7 +175,7 @@
             </div>
           </div>
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
@@ -215,7 +188,7 @@
             </div>
           </div>
 
-          <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-md-8" data-aos="fade-up" data-aos-delay="300">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
@@ -232,53 +205,6 @@
 
       </div>
     </section><!-- End About Us Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services">
-      <div class="container" data-aos="fade-up">
-
-        <header class="section-header wow fadeInUp">
-          <h3>Services</h3>
-          <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus, ad pro quaestio laboramus. Ei ubique vivendum pro. At ius nisl accusam lorenta zanos paradigno tridexa panatarel.</p>
-        </header>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="100">
-            <div class="icon"><i class="ion-ios-analytics-outline"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
-            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="ion-ios-bookmarks-outline"></i></div>
-            <h4 class="title"><a href="">Dolor Sitema</a></h4>
-            <p class="description">Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="ion-ios-paper-outline"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
-            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="200">
-            <div class="icon"><i class="ion-ios-speedometer-outline"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
-            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="300">
-            <div class="icon"><i class="ion-ios-barcode-outline"></i></div>
-            <h4 class="title"><a href="">Nemo Enim</a></h4>
-            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-          </div>
-          <div class="col-lg-4 col-md-6 box" data-aos="fade-up" data-aos-delay="400">
-            <div class="icon"><i class="ion-ios-people-outline"></i></div>
-            <h4 class="title"><a href="">Eiusmod Tempor</a></h4>
-            <p class="description">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
 
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action">
@@ -630,8 +556,6 @@
           <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
         </div>
 
-        <div class="row">
-
           <div class="col-lg-3 col-md-6">
             <div class="member" data-aos="fade-up" data-aos-delay="100">
               <img src="img/team-1.jpg" class="img-fluid" alt="">
@@ -649,64 +573,8 @@
               </div>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
         </div>
 
-      </div>
     </section><!-- End Team Section -->
 
     <!-- ======= Contact Section ======= -->
