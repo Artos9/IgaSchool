@@ -53,7 +53,7 @@
             <ul>
               <li class="active"><a href="">Strona Główna</a></li>
               <li><a href="#services">E-book</a></li>
-              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="#portfoliooooos">Portfolio</a></li>
               <li><a href="#">Blog</a></li>
               <li><a href="#team">Zespół</a></li>
               <li class="drop-down"><a href="">Realizacje</a>
