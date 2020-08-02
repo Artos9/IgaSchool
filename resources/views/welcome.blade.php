@@ -18,8 +18,8 @@
 
   <!-- Vendor CSS Files -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <!--<link href="vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="vendor/icofont/icofont.min.css" rel="stylesheet">
+  <!--<link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
   <link href="vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="vendor/venobox/venobox.css" rel="stylesheet">
@@ -51,7 +51,7 @@
 
           <nav class="nav-menu d-none d-lg-block">
             <ul>
-              <li class="active"><a href="">Strona Główna test</a></li>
+              <li class="active"><a href="">Strona Główna</a></li>
               <li><a href="#services">E-book</a></li>
               <li><a href="#portfolios">Portfolio</a></li>
               <li><a href="#">Blog</a></li>
@@ -60,7 +60,7 @@
                 <ul>
                   <li><a href="#">Wyzwania</a></li>
                   <li><a href="#">Programy</a></li>
-                  <li><a href="#">eventy</a></li>
+                  <li><a href="#">Eventy</a></li>
                 </ul>
               </li>
               <li><a href="#about">O nas</a></li>
@@ -162,7 +162,7 @@
 
         <div >
 
-          <div class="col-md-8" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="100">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
@@ -175,7 +175,7 @@
             </div>
           </div>
 
-          <div class="col-md-8" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="200">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
@@ -188,7 +188,7 @@
             </div>
           </div>
 
-          <div class="col-md-8" data-aos="fade-up" data-aos-delay="300">
+          <div class="col-md-12" data-aos="fade-up" data-aos-delay="300">
             <div class="about-col">
               <div class="img">
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
@@ -457,7 +457,7 @@
     </section><!-- End Portfolio Section -->
 
     <!-- ======= Our Clients Section ======= -->
-    <section id="clients">
+    <!--<section id="clients">
       <div class="container" data-aos="zoom-in">
 
         <header class="section-header">
@@ -479,7 +479,7 @@
     </section><!-- End Our Clients Section -->
 
     <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="section-bg">
+  <!--<section id="testimonials" class="section-bg">
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
