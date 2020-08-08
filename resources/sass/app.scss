@@ -777,11 +777,11 @@ section {
     transition: 0.3s;
 }
 
-#about .about-col:hover .icon {
+#about .about-col .icon:hover {
     background-color: #fff;
 }
 
-#about .about-col:hover i {
+#about .about-col i:hover {
     color: #18d26e;
 }
 
