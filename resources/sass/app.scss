@@ -770,7 +770,7 @@ section {
     transition: 0.3s;
 }
 
-#about .about-col i {
+#about .about-col ion-icon {
     font-size: 36px;
     line-height: 1;
     color: #fff;
@@ -781,7 +781,7 @@ section {
     background-color: #fff;
 }
 
-#about .about-col i:hover {
+#about .about-col ion-icon:hover {
     color: #18d26e;
 }
 
@@ -867,9 +867,9 @@ section {
     padding: 60px 0;
 }
 
-#call-to-action h3 {
+#call-to-action h2 {
     color: #fff;
-    font-size: 28px;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -889,12 +889,25 @@ section {
     transition: 0.5s;
     margin-top: 10px;
     border: 2px solid #fff;
-    color: #fff;
+    color: transparentize($color: #000000, $amount: 0);
 }
 
 #call-to-action .cta-btn:hover {
     background: #18d26e;
     border: 2px solid #18d26e;
+}
+
+#call-to-action .submit {
+    color: #fff;
+}
+
+#call-to-action .submit .checkbox {
+    float: left;
+}
+
+#call-to-action .submit .text {
+    padding-left: 30px;
+    text-align: left;
 }
 
 

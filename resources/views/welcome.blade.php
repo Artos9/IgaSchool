@@ -157,7 +157,9 @@
       <div class="container" data-aos="fade-up">
 
         <header class="section-header">
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+          <h2>Problemy z językiem angielskim? Pracodawca wymaga "business english" lub "technical english"? A może nauczyciel w szkole okazał się wymagający?</h2>
+        <br>
+        <h2>Ze mną angielski będzie SIMPLY EASY</h2>
         </header>
 
         <div >
@@ -166,7 +168,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="img/about-mission.jpg" alt="" class="img-fluid">
-                <div class="icon"><ion-icon name="mail-outline" style="color: white; font-size: 38px"></i></div>
+                <div class="icon"><ion-icon name="mail-outline"></ion-icon></div>
               </div>
               <h2 class="title"><a href="#">Newslatter</a></h2>
               <p>
@@ -179,7 +181,7 @@
             <div class="about-col">
               <div class="img">
                 <img src="img/about-plan.jpg" alt="" class="img-fluid">
-                <div class="icon"><ion-icon name="newspaper-outline" style="color: white; font-size: 38px"></i></div>
+                <div class="icon"><ion-icon name="newspaper-outline"></ion-icon></div>
               </div>
               <h2 class="title"><a href="#">Blog</a></h2>
               <p>
@@ -192,9 +194,9 @@
             <div class="about-col">
               <div class="img">
                 <img src="img/about-vision.jpg" alt="" class="img-fluid">
-                <div class="icon" style="left: calc( 50% - 96px - 10px);"><ion-icon name="logo-facebook" style="color: white; font-size: 38px"> </ion-icon></div>
-                <div class="icon"><ion-icon name="logo-instagram" style="color: white; font-size: 38px"></i></div>
-                <div class="icon" style="left: calc( 50% + 32px + 10px);" > <ion-icon name="logo-linkedin" style="color: white; font-size: 38px"></i></div>
+                <div class="icon" style="left: calc( 50% - 96px - 10px);"><ion-icon name="logo-facebook"> </ion-icon></div>
+                <div class="icon"><ion-icon name="logo-instagram"></ion-icon></div>
+                <div class="icon" style="left: calc( 50% + 32px + 10px);" > <ion-icon name="logo-linkedin" ></ion-icon></div>
               </div>
               <h2 class="title"><a href="#">Social media</a></h2>
               <p>
@@ -211,9 +213,24 @@
     <!-- ======= Call To Action Section ======= -->
     <section id="call-to-action">
       <div class="container text-center" data-aos="zoom-in">
-        <h3>Call To Action</h3>
-        <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <a class="cta-btn" href="#">Call To Action</a>
+        <h2>Zapisz się na darmowe materiały</h2>
+        <div class="form">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" id="name" style="border-radius: 25px" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" class="form-control" name="email" id="email" style="border-radius: 25px" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="submit col-md-12"> <input type="checkbox" class="checkbox" name="privacy-policy"> <div class="text"> Wyrażam zgodę na przetwarzanie podanych danych w celu otrzymywania newslettera oraz informacji o produktach, nowościach i usługach IgaSchool. Szczegóły przetwarzania danych znajdziesz w </div>
+            </div>
+              <div class="text-center"><button class="cta-btn" type="submit">Send Message</button></div>
+            </form>
+          </div>
       </div>
     </section><!-- End Call To Action Section -->
 
